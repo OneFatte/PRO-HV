@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2? family= Inter:wght@400;500;600 & display=swap');
-*{
+
+* {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
     font-family: 'Inter', sans-serif;
 }
-.contenedor{
+
+.contenedor {
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -13,7 +15,7 @@
     padding: 10px;
 }
 
-header.nav{
+header.nav {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -22,19 +24,22 @@ header.nav{
     margin: 10px;
     border-radius: 5px;
 }
-.nav picture{
+
+.nav picture {
     padding: 10px;
     gap: 20px;
 }
-.nav picture img{
+
+.nav picture img {
     width: 150px;
 }
-.nav h1{
+
+.nav h1 {
     padding-left: 10px;
     color: #424240;
 }
 
-.redes-btn{
+.redes-btn {
     margin-left: auto;
     display: flex;
     justify-content: flex-end;
@@ -43,21 +48,23 @@ header.nav{
     padding: 20px;
     gap: 5px;
 }
-.redes-btn a img{
+
+.redes-btn a img {
     width: 50px;
 }
 
-main{
+main {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.descripcion{
+
+.descripcion {
     background-image: url("../imagenes/fondo-html.jpg");
     background-size: cover;
     display: flex;
-    justify-content:left;
+    justify-content: left;
     height: 350px;
     width: 100%;
     gap: 20px;
@@ -65,49 +72,57 @@ main{
     padding: 20px;
     margin: 10px;
 }
-.descripcion .columna1{
+
+.descripcion .columna1 {
     display: flex;
     flex-direction: column;
     text-align: center;
+    font-size: 15pt;
     gap: 20px;
     width: 600px;
     height: auto;
     color: white;
     padding: 20px;
 }
-.columna1 ul{
+
+.columna1 ul {
     margin: 20px;
     text-align: left;
 }
-.descripcion .columna1 h2{
-    
+
+.descripcion .columna1 h2 {
+
     color: #D3F85A;
     font-weight: 700;
     font-size: 30pt;
 }
-.descripcion .columna2{
+
+.descripcion .columna2 {
     margin-left: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
 }
-.descripcion .columna2 img{
+
+.descripcion .columna2 img {
     height: 250px;
     border-radius: 10px;
 }
-.separador{
+
+.separador {
     display: flex;
     width: 100%;
     gap: 15px;
 }
-.separador hr{
+
+.separador hr {
     flex-grow: 1;
     border: none;
     border-top: 1px solid #ccc;
 }
 
-h3{
+h3 {
     color: #D3F85A;
     font-weight: 700;
     font-size: 20pt;
@@ -115,7 +130,7 @@ h3{
     align-self: flex-start;
 }
 
-div.educacion{
+div.educacion {
     display: flex;
     justify-content: space-around;
     gap: 50px;
@@ -124,7 +139,8 @@ div.educacion{
     margin: 20px;
 
 }
-.educacion .block1{
+
+.educacion .block1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -136,17 +152,62 @@ div.educacion{
     border-radius: 10px;
     padding: 10px;
 }
-.educacion .block1 img{
+
+.educacion .block1 img {
     border-radius: 10px;
     height: 450px;
     width: 450px;
 }
 
-.educacion .block1 span{
+.educacion .block1 span {
     color: #424240;
     font-size: 15pt;
 }
 
+.experiencia {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    color: white;
+}
 
+.experiencia .trabajo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5rem;
+    height: 60vh;
+    background-color: rgba(101, 101, 101, 0.411);
+    padding: 10px;
+    border-radius: 10px;
+}
 
+.experiencia .trabajo img {
+    height: 35vh;
+    width: 25vw;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
 
+.hyh {
+    margin: 5rem;
+    display: flex;
+    justify-content: flex-start;
+    gap: 5rem;
+}
+
+.hyh .hab,
+.hyh .pasatiempos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(90deg, #fc466a81 0%, #3f5efb7c 100%);
+    padding: 10px;
+    border-radius: 10px;
+    height: 40vh;
+    width: 30vw;
+    gap: 1rem;
+    font-size: 1.5rem;
+    color: white;
+}
